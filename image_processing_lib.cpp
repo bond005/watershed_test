@@ -431,7 +431,7 @@ bool pointHasNeighbours(const TPoint2D& checkedPoint, int aFeaturesOfPixels[],
         if ((aFeaturesOfPixels[i] >= 0)
                 && (aFeaturesOfPixels[i] != iExcludedNeighbour))
         {
-            return false;
+            return true;
         }
     }
 
@@ -441,7 +441,7 @@ bool pointHasNeighbours(const TPoint2D& checkedPoint, int aFeaturesOfPixels[],
         if ((aFeaturesOfPixels[i] >= 0)
                 && (aFeaturesOfPixels[i] != iExcludedNeighbour))
         {
-            return false;
+            return true;
         }
     }
 
@@ -451,7 +451,7 @@ bool pointHasNeighbours(const TPoint2D& checkedPoint, int aFeaturesOfPixels[],
         if ((aFeaturesOfPixels[i] >= 0)
                 && (aFeaturesOfPixels[i] != iExcludedNeighbour))
         {
-            return false;
+            return true;
         }
     }
 
@@ -461,7 +461,7 @@ bool pointHasNeighbours(const TPoint2D& checkedPoint, int aFeaturesOfPixels[],
         if ((aFeaturesOfPixels[i] >= 0)
                 && (aFeaturesOfPixels[i] != iExcludedNeighbour))
         {
-            return false;
+            return true;
         }
     }
 
@@ -472,7 +472,7 @@ bool pointHasNeighbours(const TPoint2D& checkedPoint, int aFeaturesOfPixels[],
         if ((aFeaturesOfPixels[i] >= 0)
                 && (aFeaturesOfPixels[i] != iExcludedNeighbour))
         {
-            return false;
+            return true;
         }
     }
 
@@ -482,7 +482,7 @@ bool pointHasNeighbours(const TPoint2D& checkedPoint, int aFeaturesOfPixels[],
         if ((aFeaturesOfPixels[i] >= 0)
                 && (aFeaturesOfPixels[i] != iExcludedNeighbour))
         {
-            return false;
+            return true;
         }
     }
 
@@ -492,7 +492,7 @@ bool pointHasNeighbours(const TPoint2D& checkedPoint, int aFeaturesOfPixels[],
         if ((aFeaturesOfPixels[i] >= 0)
                 && (aFeaturesOfPixels[i] != iExcludedNeighbour))
         {
-            return false;
+            return true;
         }
     }
 
@@ -502,7 +502,7 @@ bool pointHasNeighbours(const TPoint2D& checkedPoint, int aFeaturesOfPixels[],
         if ((aFeaturesOfPixels[i] >= 0)
                 && (aFeaturesOfPixels[i] != iExcludedNeighbour))
         {
-            return false;
+            return true;
         }
     }
 
